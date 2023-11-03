@@ -1,0 +1,63 @@
+div{
+    background-color: aquamarine;
+    margin:20px auto;
+    transform:translate(100px,0);
+    width:200px;
+    height: 100px;
+    animation-name: sqare;
+    animation-duration: 2s;
+    animation-delay: .5s;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+    animation-fill-mode:forwards ;
+   
+   /* animation-direction: reverse; */
+
+}
+.one:hover{ animation-play-state: paused;}
+@keyframes sqare {
+    0%{
+        transform: translate(0,0);
+        background-color: aquamarine;
+    }
+    25%{
+        transform: translate(0,500px);
+        background-color: green;
+    }
+    50%{
+        transform: translate(400px,500px);
+        background-color: red;
+
+    }
+    75%{
+        transform: translate(400px,0px);
+        background-color: blue;
+    }
+    100%{
+        transform: translate(0px,0px);
+        background-color: yellow;}
+    
+   
+    
+    
+    /* 0%{
+        width: 0%;
+        background: red;
+
+    }
+    50%{
+        background-color: green;
+    }
+    100%{
+        background-color: black;
+    } */
+    /* from{ 
+        width: 0%;
+        background: red;
+    }
+    to{ 
+        width: 100%;
+        background-color: black;
+    }
+     */
+}

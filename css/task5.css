@@ -1,0 +1,46 @@
+.one{
+    
+  
+   margin: 40px auto ;
+   padding: 40px ;
+
+   width: 400px;
+  display: block ;
+  text-align:center ;
+  border: 5px solid orange ;
+
+}
+ .one p{
+    background-color: gainsboro ;
+    border: inherit ;
+    padding: inherit ;
+}
+.p1{
+    
+    font-family: 'Open Sans', sans-serif;
+    font-weight:300px ;
+    font-style: italic;
+
+}
+.p2{
+     font-family: 'Jomhuria', cursive;
+    font-weight:400px ;
+    
+
+}
+.p3{
+    font-family: 'Cairo', sans-serif;
+
+    font-weight:700px ;
+    
+
+}
+/* 
+
+
+font-family: 'Jomhuria', cursive;
+font-family: 'Nunito', sans-serif;
+
+font-family: 'Cairo', sans-serif;
+
+ */

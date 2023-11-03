@@ -1,0 +1,83 @@
+
+.t1{
+    text-shadow: 2px 2px 2px red ;
+    /* text-decoration:underline ;
+    text-decoration:line-through ;
+    text-decoration: none ; */
+    /* letter-spacing: 2px ;
+    word-spacing: 2px; */
+    /* text-indent:  10px; space before sentence */
+
+}
+.one{
+    text-transform: uppercase ;
+}
+.two{
+    text-transform: capitalize ;
+}
+.three{
+    text-transform: lowercase ;
+}
+.t2{
+    width: 400px ;
+    background-color:burlywood ;
+    padding:  5px;
+}
+.t3{
+    width: 400px ;
+    background-color:burlywood ;
+    padding:  5px;
+    overflow: hidden;
+}
+.t2,
+.t3,
+.t4{
+    background-color: #eee;
+    width: 400px;
+    padding: 20px;
+    margin: 20px auto;
+}
+.t3{white-space: nowrap;
+    overflow: hidden;}
+.t4{
+white-space: nowrap;
+overflow: hidden;
+text-overflow: ellipsis;
+}
+a{
+    display:block;
+    color:white;
+    background-color:#00cc99 ;
+    font-weight: bold;
+    text-align: center;
+    width:100px;
+    margin: 20px auto ;
+    padding: 30px ;
+    text-transform:capitalize ;
+    text-decoration: none ;
+    border-bottom:  20px solid  #006666;
+}
+/* a{
+    background-color: #0fafa0;
+    color: white;
+    padding: 20px;
+    display: block;
+    font-size: 31px;
+    text-transform: capitalize;
+    margin: 20px auto;
+    width: fit-content;
+    text-decoration: none;
+    border-bottom: 10px solid #0e5e57;
+    font-family: arial;
+    font-weight: bold;
+} */
+
+/* .try{
+     text-overflow: ellipsis;
+    background-color:burlywood ;
+    width: 300px;
+    word-break: break-all ;
+    overflow:hidden ;
+
+    /* white-space: nowrap; بيخلى الكلام يكمل ويطلع بره مش بينزل سطر جديد */
+/* } */

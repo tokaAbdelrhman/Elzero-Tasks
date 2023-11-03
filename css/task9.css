@@ -1,0 +1,130 @@
+*{
+
+    padding:0;
+    margin:0;
+    
+}
+.one div{
+    border-radius: 50%;
+    background-color:#eee ;
+    
+    width:150px;
+    height:150px ;
+    display: inline-flex;
+    
+    margin: 30px ;
+    box-shadow: 5px 5px 0 0 blue , 
+    -5px -5px 0 0 pink;
+    position: relative;
+    counter-increment: number ;
+}
+
+.one div::before{
+    content: counter(number);
+    background-color: black;
+    color:white;
+    border-radius:50% ;
+    width:40px ;
+    height:40px ;
+     position: absolute;
+     top:-20px;
+     left:30px;  
+     text-align: center ; 
+     
+}
+.one div::after{
+    content: attr(data-person);
+    position: absolute;
+    font-weight: bold;
+    color:black;
+    top:60px;
+    left:30px;
+
+}
+.two{
+    background-color: #eee ;
+    width: 150px;
+    height:150px ;
+    border-radius: 50px ;
+    box-shadow: 0 0 20px 0 #000  inset ;
+    margin: 50px auto;
+   border-radius: 40px 80px  ;
+
+
+
+}
+.parent{
+   
+    width:550px;
+    border: 1px solid;
+    position: relative;
+    margin: 10px auto  ;
+    
+}
+.child1,
+.child2{
+    background-color:  #eee;
+    margin:17px  ;
+    padding :20px;
+    float:left;
+    width: 200px;
+    height: 200px ;
+
+}
+.ch1
+{
+    font-weight: bold;
+    background-color: blue;
+    color:white;
+    text-align: center;
+    border-radius: 6px ;
+    font-size:30px;
+}
+.ch2{
+    width:150px;
+    height: 150px;
+    border-radius: 50% ;
+    background-color: rosybrown ;
+    margin: 40px auto;
+    position: relative;
+
+}
+.ch2::before{
+    content:attr(data-inside) ;
+    font-weight: bold ;
+    font-size:30px;
+    position: absolute ;
+    left:30px;
+    bottom:50px;
+
+
+}
+.or{
+    position: absolute;
+   right: 262px;
+   top:150px;
+   color:white;
+   background-color: blue;
+   border-radius:50% ;
+   padding:5px;
+
+}
+.or::after{
+    content: "";
+    background-color: blue;
+    width:2px;
+    height:100px ;
+    position: absolute;
+    left:15px;
+
+}
+.or::before{
+    content: "";
+    background-color: blue;
+    width:2px;
+    height:130px ;
+    position: absolute;
+    left:15px;
+    top:-130px;
+
+}

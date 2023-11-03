@@ -1,0 +1,133 @@
+*{box-sizing: border-box;}
+
+.first{
+    margin: 20px auto;
+    border-radius: 50%;
+    height: 100px;
+    width:100px ;
+    background-color:#eee ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow:-7px -7px #ff5722 ,
+    7px 7px #03a9f4 ;
+    color: #ff5722 ;
+    font-weight: bold ;
+
+}
+
+.parent{
+    height:300px ;
+    width:600px;
+    background-color: #eee ;
+    display:  flex;
+    align-content: space-between;
+    justify-content: space-between;
+    flex-flow: row wrap;
+}
+.parent div{
+    background-color:#f44336 ;
+    color:white;
+    font-weight:bold ;
+    
+    padding: 20px;
+    width: calc(95% /3);
+}
+.parent2{
+    height:300px ;
+    width:600px;
+    background-color: #eee ;
+    display:  flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 20px auto;
+    flex-direction:row;
+    
+}
+.parent2 div{
+    display: flex;
+    background-color:#03a9f4 ;
+    color:white;
+    font-weight:bold ;
+    
+    padding: 20px;
+    width: calc(95%/3);
+
+}
+.parent2 .one{ 
+    order:6;
+    align-self: flex-end;
+    height: 50px;
+}
+.parent2 two{
+     order:6;
+    
+}
+.parent2 .three{ order:4;}
+.parent2 .four{ order:2;height: 110px;}
+.parent2 .five{ order:2; height: 50px;}
+.parent2 .six{order: 4;}
+.parent3{
+    height:300px ;
+    width:600px;
+    background-color: #eee ;
+    display: flex ;
+    margin:10px auto;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items:flex-end ;
+    flex-wrap: warp ;
+
+}
+.parent3 div{
+    height: 90px;
+    padding:20px;
+    background-color: #009688;
+    color:white;
+
+}
+.parent3 .two{
+    align-self: flex-start;
+    width: 50%;
+}
+.parent4{
+    
+    height:300px ;
+    width:600px;
+    background-color: #eee ;
+    display:  flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 20px auto;
+    
+    
+}
+.parent4 div{
+    
+    text-align: center;
+   height:50% ;
+   width:calc(95%/4);
+    padding:20px;
+    background-color: #009688;
+    color:white;
+
+}
+.parent4 .one{
+    background-color: blueviolet;
+   
+    order:2;
+}
+.parent4 .two{
+    align-self:flex-end ;
+    order:3;
+     background-color: orangered;
+    }
+.parent4 .three{
+    order:4;
+    
+    background-color: #2be268;
+}
+.parent4 .four{ order:1;
+    align-self:flex-end ;
+    background-color: rgb(228, 150, 48);}

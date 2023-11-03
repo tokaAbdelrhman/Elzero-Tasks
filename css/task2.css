@@ -1,0 +1,53 @@
+.one  div
+
+{
+    background-color: #eee;
+    text-align:center ;
+    padding:50px;
+    display:inline-block ;
+    width:100px;
+    margin:50px;
+}
+    
+.s1{
+  
+    border: 5px red solid ;
+    outline:  5px black solid;
+}
+.s2{
+    
+    border-style: solid ;
+    border-color: blue green;
+    border-radius:5px ;
+    outline:  5px black solid;
+}
+.s3{
+   
+    border-style: dashed ;
+    border-color: red  green blue yellow ;
+    border-radius:5px ;
+    outline: 5px black solid;
+}
+.two div{
+    background-color: #eee;
+    display: block;
+    padding: 50px;
+    margin:10px ;
+}
+
+.c1{
+    
+    border-left:10px red solid ;
+    
+}
+.c2{
+    
+    border-left:10px blue solid ;
+     visibility: hidden; 
+    
+}
+.c3{
+   
+    border-left:10px green solid ;
+   
+}

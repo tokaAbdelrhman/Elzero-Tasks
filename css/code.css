@@ -1,0 +1,86 @@
+.one div{
+   width: 500px;
+    padding:20px;
+    margin:20px auto;
+    color:white;
+}
+.assign-1-shape-1 {
+    background-color: rgb(138, 43, 226);
+}
+.assign-1-shape-2 {
+    background-color: rgb(138 43 226 /50%);
+}
+.assign-1-shape-3{
+    background-color: rgb(138 43 226 /10%);
+}
+.two div,
+.three div,
+.four div{
+    background-color: #f3e9fc;
+    width: 400px;
+    height: 400px;
+     padding:20px;
+     margin:20px auto;
+     color:white;
+ }
+ 
+ .assign-2-shape-1 {
+    background-image: url("../photo/css-assignment-5-8.png");
+    background-repeat: no-repeat;
+}
+.assign-2-shape-2 {
+   background-image: url("../photo/css-assignment-5-8.png");
+   background-repeat: repeat-x;
+}
+.assign-2-shape-3{
+   background-image: url("../photo/css-assignment-5-8.png");
+   background-repeat:repeat-y ;
+}
+.assign-2-shape-4{
+   background-image: url("../photo/css-assignment-5-8.png");
+   background-repeat: repeat;
+}
+.assign-3-shape-1 {
+    background-image: url("../photo/css-assignment-5-8.png");
+    background-repeat: no-repeat;
+}
+.assign-3-shape-2 {
+   background-image: url("../photo/css-assignment-5-8.png");
+   background-repeat: repeat-x;
+   background-position:bottom ;
+}
+.assign-3-shape-3{
+   background-image: url("../photo/css-assignment-5-8.png");
+   background-repeat:repeat-y ;
+   background-position: right;
+}
+.assign-3-shape-4{
+   background-image: url("../photo/css-assignment-5-8.png");
+   background-repeat: repeat;
+  
+}
+.assign-4-shape-1 {
+    background-image: url("../photo/css-assignment-5-8.png");
+    background-repeat: no-repeat;
+    background-size: 80%;
+}
+.assign-4-shape-2 {
+   background-image: url("../photo/css-assignment-5-8.png");
+   background-repeat: repeat-x;
+   background-position: bottom;
+   background-size:80% ;
+   
+}
+.assign-4-shape-3{
+   background-image: url("../photo/css-assignment-5-8.png");
+   background-repeat:repeat-y ;
+   background-position: right;
+   background-size:80% ;
+  
+}
+.assign-4-shape-4{
+   background-image: url("../photo/css-assignment-5-8.png");
+   background-repeat: no-repeat;
+   background-position:  bottom right;
+
+}

@@ -1,0 +1,105 @@
+.one{
+    background-color: red;
+    color:white;
+}
+.two{
+    width:100px;
+    height:100px ;
+    background-color: #eee;
+}
+a{
+    color:green;
+    text-decoration:none ;
+}
+a:hover{color:red;}
+.ch:checked {display:none;}
+a:visited{color:blue;}
+div:empty{border:  10px solid red;}
+.in{border:2px solid black;}
+.in:focus{
+    border-color:yellow;
+    outline:none;
+}
+.two2::first-letter{
+    display: inline-block;
+  background-color: red;
+  color: white;
+  font-size: 60px;
+  font-weight: bold;
+}
+.three2::first-line{
+    color:green;
+    font-weight: bold ;
+}
+::selection{
+    background-color: black ;
+    color:white;
+}
+.parent {
+    margin-bottom: 20px;
+    overflow: hidden;
+    counter-increment: counter-name;
+  }
+  .one3 {
+    background-color: #eee;
+    padding: 10px;
+    width: 600px;
+    float: left;
+    position: relative;
+  }
+  
+  
+  .user {
+    background-color: #eee;
+    width: 50px;
+    margin-right: 20px;
+    padding: 10px;
+    height: 55.5px;
+    float: left;
+    font-size: 50px;
+    text-align: center;
+  }
+  /* .one3 .pipline{
+    position: absolute ;
+    width:10px;
+    height: 100%;
+    right: 0px;
+    top:0px;
+    background-color: green;
+
+  } */
+  .one3::after{
+    content:counter(counter-name);
+    position: absolute;
+    background-color: red;
+    color: white;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    font-weight: bold;
+    right: -10px;
+    top: 50%;
+    margin-top: -10px;
+    /* position: absolute ;
+    width:10px;
+    height: 100%;
+    right: 0px;
+    top:0px;
+    background-color: green; */
+  }
+  .one3::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: -20px;
+    width: 0;
+    height: 0;
+    background-color: white;
+    margin-top: -10px;
+    border-style: solid;
+    border-width: 10px;
+    border-color: transparent green transparent transparent;}
+   
+        
+   
+   

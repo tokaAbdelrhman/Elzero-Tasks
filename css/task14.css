@@ -1,0 +1,86 @@
+.one{
+   width:300px;
+   height: 200px;
+   margin:20px auto;
+   color:#03A9F4;
+   font-size: xx-large;
+   font-weight: bold;
+   background-color: #eee;
+   text-align: center;
+   display:flex;
+   justify-content: center;
+   align-items: center;
+   position: relative;
+
+}
+.one::before{
+    content:"";
+    width:100%;
+    height: 100%;
+    position: absolute;
+   z-index: -1;
+    background-color: #03A9F4;
+    transform: rotate(-5deg);
+
+}
+.one::after{
+    content:"";
+    width:100%;
+    height: 100%;
+    position: absolute;
+   z-index: -2;
+    background-color: #E91E63;
+    transform: rotate(5deg);
+
+}
+.two{
+    width:200px;
+    height: 200px;
+    margin:20px auto;
+   
+    font-size: xx-large;
+    font-weight: bold;
+    background-color: #eee;
+   border-radius: 50%;
+   display:flex;
+   justify-content: center;
+   align-items: center;
+   position: relative;
+}
+.two::before{
+
+    content:"";
+    border-radius: 50%;
+    width:200px;
+    height: 200px;
+    position: absolute;
+    z-index: -1;
+    border: 10px solid;
+     border-color: #E91E63 #E91E63 #E91E63 white ;
+    transition: .5s;
+    
+
+
+}
+.two::after{
+
+    content:"";
+    border-radius: 50%;
+    width:200px;
+    height: 200px;
+    position: absolute;
+    z-index: -2;
+    border: 20px solid;
+     border-color: #03A9F4 white #03A9F4 #03A9F4 ;
+     transition: .5s;
+     transition-delay: .5s;
+    
+
+
+}
+.two:hover::before{
+    transform: rotate(1turn);
+}
+.two:hover:after{
+    transform: rotate(1turn);
+}

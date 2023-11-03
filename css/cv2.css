@@ -1,0 +1,19 @@
+.one {
+    width:40%;
+    background-color:blueviolet;
+    color: #fff;
+}img {
+    border-radius: 20%;
+   margin-top:10px ;
+   
+  }
+
+.two {
+  margin-left:42% ;
+  position: fixed;
+  top: 0;
+  width: fit-content;
+  
+  
+}
+

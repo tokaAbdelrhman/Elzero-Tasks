@@ -1,0 +1,163 @@
+
+   /* position: static; position: ثابت فى مكانه لا يتاثر باى تغيير فى المكان */
+    /* position: relative;بناء على نفسه من موقعه هو */
+    /* position: sticky; top:0;
+    position: fixed ; */
+    /* position: absolute;
+    z-index: 20; */
+    /* ul{
+        list-style-type: disc;
+        list-style-position: outside;
+        list-style-image: url("");
+        list-style: none ;
+        padding-left: 0px ;
+        
+    } */
+    .green,
+    .red,
+    .blue,
+    .black{
+        width:200px;
+        height:  100px;
+        
+        position: absolute;
+
+    }
+    .black{
+        top: 30px;
+    left: 20px;
+
+        background-color: black;
+       
+        z-index: 1;
+    }
+    .red{
+        background-color: red;
+        top:40px;
+        left:40px;
+        z-index: 4;
+    }
+    .green{
+        top:30px;
+        left:30px;
+        background-color: green;
+       
+        z-index: 3;
+    }
+    .blue{
+       left: 20px;
+       top: 20px;
+        background-color: blue;
+       
+        z-index: 2;
+    }
+    hr{ 
+        margin-top:170px ;
+    }
+    .one{
+       margin-top:180px ;
+    
+        margin-left:50px ;
+        width:400px;
+        background-color: #eee;
+        border:  2px solid;
+        border-color: red blue ;
+        /* border-left:5px solid blue ;
+        border-right:5px solid blue ;
+        border-top:5px solid red ;
+        border-bottom:5px solid red ; */
+        position: relative;
+    }
+    .top-left,
+    .bottom-left,
+    .top-right,
+    .bottom-right{
+        width:50px;
+        background-color: blue;
+        
+
+    }
+    .top-left{
+        position: absolute;
+        top: -15px;
+        left:-15px;
+        border-right: 2px solid  red ;
+
+    }
+    .top-right{
+        position: absolute;
+        top: -15px;
+       right:-15px;
+        border-left: 2px solid  red ;
+
+    }
+    .bottom-left{
+        position: absolute;
+       bottom: -15px;
+       left:-15px;
+        border-right: 2px solid  red ;
+
+    }
+    .bottom-right{
+        position: absolute;
+       bottom: -15px;
+       right:-15px;
+        border-left: 2px solid  red ;
+
+    }
+    .u1{
+        width:400px ;
+        background-color: #eee ;
+        margin:20px auto;
+
+
+    }
+    .html,
+    .css,
+    .js {
+        margin-bottom: 20px ;
+        list-style-type: none;
+    }
+.html ol li,
+.css ol li,
+.js ul li {
+    background-color: white;
+    margin: 10px ;
+    padding:10px;
+}
+   .css ol {
+    list-style-type: upper-roman;
+    
+   }
+   table{
+    width:700px;
+    margin-top: 170px ;
+    border-color:  white;
+    background-color: #eee;
+    text-align: center;
+    padding: 5px;
+    border-spacing: 10px;
+   }
+   caption{font-weight: bold; margin-bottom:30px ;
+}
+   img{
+    width:50px;
+    height: 50px ;
+   }
+   .view{
+    background-color: blue ;
+   }
+   .delete{background-color:red;}
+   thead {
+    text-align: center;
+    color:white;
+    background-color:gray ;
+   }
+   tbody td{
+    background-color: #eee;
+    text-align: center;
+    padding: 5px;
+    border-spacing: 1px;
+}
+     
+  
